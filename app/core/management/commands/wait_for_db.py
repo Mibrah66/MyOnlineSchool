@@ -18,4 +18,5 @@ class Command(BaseCommand):
             except(Psycopg2OpError, OperationalError):
                 self.stdout.write('the Database is not available now...')
                 time.sleep(1)
-        self.stdout.write(self.style.SUCCESS('The Database is up and running.'))
+        self.stdout.write
+        (self.style.SUCCESS('The Database is up and running.'))
