@@ -11,6 +11,7 @@ def calcu(x, y):
     """
     return x + y
 
-def subtra(x , y):
+
+def subtra(x, y):
 
     return y - x
